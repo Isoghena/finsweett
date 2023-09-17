@@ -6,7 +6,7 @@
   font-family: 'Manrope', sans-serif;
 }
 
-/* header styling */
+
 header {
   width: 100%;
   background-color: white;
@@ -311,7 +311,8 @@ main .container .right-img .rating {
 .write-up-container {
   padding-left: 55px;
   margin-left: 25px;
-  border-left: dashed 1.5px orangered;
+  
+  
   height: 80px;
 }
 
@@ -326,13 +327,69 @@ main .container .right-img .rating {
 
 }
 
-.icon{
+.card .icon{
   padding-left: 55px;
   margin-left: 25px;
   width: 20px;
+  margin-top: 20px;
 }
 
 .icon .p{
   padding-left: 55px;
   margin-left: 25px;
+}
+
+#get-a-quote-section .container .left p {
+  margin-bottom: 20px;
+  text-decoration: solid;
+  
+  padding-left: 50px;
+}
+
+#get-a-quote-section .container .left h2 {
+  margin-bottom: 20px;
+  text-decoration: solid;
+  
+  padding-left: 50px;
+  font-weight: bold;
+}
+
+.one h1 {
+  color: #661CE7;
+}
+
+.what-we-offer-cards .card p{
+  font-weight: 600;
+    font-size: 15px;
+    line-height: 36px;
+    margin-top: 60px;
+}
+
+.what-we-offer-cards .card .icon{
+  width: 35px;
+  margin-top: 70px;
+  
+}
+
+.card .icon{
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
+}
+.contain{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+}
+
+.line{
+  margin-top: 220px;
+  
+  justify-content: center;
+  padding-right: 200px;
+  margin-left: 220px;
+}
+
+.left h2{
+  margin-bottom: 180px;
 }
